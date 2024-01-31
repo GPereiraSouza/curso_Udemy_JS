@@ -1,0 +1,51 @@
+:root{
+    --primary-color :rgb(13, 106, 134);
+    --primary-color-dark :rgb(14, 64, 79);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container{
+    width: 760px;
+    max-width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 2em;
+}
+
+.timer{
+    text-align: center;
+    font-size: 2.5em;
+    padding-bottom: 15px;
+}
+
+.buttons{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.buttons button{
+    padding: 5px;
+}
+
+.stop{
+    color: red;
+}
