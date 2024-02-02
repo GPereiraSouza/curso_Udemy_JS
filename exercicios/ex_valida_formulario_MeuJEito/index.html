@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valida Formulario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="source/css/main.css">
+</head>
+
+<body>
+    <section class="container">
+        <h1>Formulário de cadastro</h1>
+        <ul>
+            <li>Nenhum campo pode estar vazio</li>
+            <li>Usuário só poderá conter letras e/ou números</li>
+            <li>Usuário deverá ter entre 3 e 12 caracteres</li>
+            <li>Senha precisa ter entre 6 e 12 caracteres</li>
+        </ul>
+
+        <form class="form">
+            <label for="name">Nome:</label>
+            <input type="text" class="name" id="name"> 
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" class="sobrenome" id="sobrenome"> 
+            <label for="cpf">CPF:</label>
+            <input type="text" class="cpf" id="cpf"> 
+            <label for="usuario">Usuario:</label>
+            <input type="text" class="usuario" id="usuario"> 
+            <label for="senha">Senha:</label>
+            <input type="text" class="senha" id="senha"> 
+            <button type="submit">Verificar</button>
+        </form>
+        
+        <div class="res"></div>
+    </section> 
+
+
+    <script src="source/js/index.js"></script>
+</body>
+
+</html>
